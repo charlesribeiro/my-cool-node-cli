@@ -1,9 +1,7 @@
-// // import clear from 'clear';
 import chalk from "chalk";
 import figlet from "figlet";
 import { createFolderCommand } from "./commands/create-folder.js";
-
-// // clear();
+import { logError, logInfo } from "./utils/logger.js";
 
 console.log(
     chalk.green(
@@ -19,8 +17,8 @@ console.log(
                 error: (err) => reject(err),
                 complete: () => resolve(),
             });
-        }); console.log(chalk.blue('Folder and file created successfully!'));
+        }); logInfo('Folder and file created successfully!');
     } catch (error) {
-        console.error(chalk.red('Error:', error));
+        logError(`Error: ${error}`);
     }
 })();
