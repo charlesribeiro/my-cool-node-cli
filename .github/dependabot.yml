@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # you can use 'npm' also for the case of yarn projects
+    directory: "/" # Root directory, adjust if needed for monorepos
+    schedule:
+      interval: "daily" # Choose 'weekly', 'monthly', etc. as per your need
+    assignees:
+      - "charlesribeiro" # Replace with your GitHub username(s)
+    reviewers:
+      - "charlesribeiro" # Add other team members as needed
+    commit-message:
+      prefix: "deps" # Customize this if needed (e.g., "chore", "build")
+    open-pull-requests-limit: 10 # Limit the number of open PRs
+    ignore:
+      - dependency-name: "chalk" # Exclude specific dependencies if needed
