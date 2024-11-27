@@ -52,12 +52,12 @@
   resolved "https://registry.yarnpkg.com/@types/figlet/-/figlet-1.5.8.tgz#96b8186c7e2a388b4f8d09ee3276cba2af88bb0b"
   integrity sha512-G22AUvy4Tl95XLE7jmUM8s8mKcoz+Hr+Xm9W90gJsppJq9f9tHvOGkrpn4gRX0q/cLtBdNkWtWCKDg2UDZoZvQ==
 
-"@types/node@^22.5.5":
-  version "22.5.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.5.5.tgz#52f939dd0f65fc552a4ad0b392f3c466cc5d7a44"
-  integrity sha512-Xjs4y5UPO/CLdzpgR6GirZJx36yScjh73+2NlLlkFRSoQN8B0DpfXPdZGnvVmLRLOsqDpOfTNv7D9trgGhmOIA==
+"@types/node@^22.10.0":
+  version "22.10.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.0.tgz#89bfc9e82496b9c7edea3382583fa94f75896e81"
+  integrity sha512-XC70cRZVElFHfIUB40FgZOBbgJYFKKMa5nb9lxcwYstFG/Mi+/Y0bGS+rs6Dmhmkpq4pnNiLiuZAbc02YCOnmA==
   dependencies:
-    undici-types "~6.19.2"
+    undici-types "~6.20.0"
 
 acorn-walk@^8.1.1:
   version "8.3.3"
@@ -142,10 +142,10 @@ typescript@^5.6.2:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.6.2.tgz#d1de67b6bef77c41823f822df8f0b3bcff60a5a0"
   integrity sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==
 
-undici-types@~6.19.2:
-  version "6.19.8"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
-  integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
+undici-types@~6.20.0:
+  version "6.20.0"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.20.0.tgz#8171bf22c1f588d1554d55bf204bc624af388433"
+  integrity sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==
 
 v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
